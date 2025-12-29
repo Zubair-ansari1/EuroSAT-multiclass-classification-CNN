@@ -1,3 +1,10 @@
+Dataset
+---
+URL: https://zenodo.org/records/7711810
+
+About dataset: A novel dataset based on Sentinel-2 satellite images covering 13 different spectral bands and consisting of 10 classes with in total 27,000 labeled images.
+EuroSAT_RGB.zip contains the RGB version of the dataset, which includes the optical R, G and B frequency bands encoded as JPEG images.
+
 ## Conclusion
 
 The custom CNN trained model shows good performance on the EuroSAT_RGB multiclass dataset consisting of 10 land cover classes, with the following best metrics achieved at epoch 18.
