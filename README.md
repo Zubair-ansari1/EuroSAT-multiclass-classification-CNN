@@ -3,7 +3,19 @@ Dataset
 URL: https://zenodo.org/records/7711810
 
 About dataset: A novel dataset based on Sentinel-2 satellite images covering 13 different spectral bands and consisting of 10 classes with in total 27,000 labeled images.
-EuroSAT_RGB.zip contains the RGB version of the dataset, which includes the optical R, G and B frequency bands encoded as JPEG images.
+The dataset provides images in two formats: a multispectral version containing 13 spectral bands and an RGB-only version. In this work, the EuroSAT_RGB subset was used, which includes the optical Red, Green, and Blue bands encoded as JPEG images.
+
+citation/attribution: https://zenodo.org/records/7711810
+
+Image Resolution
+-
+EuroSAT_RGB images are 64 x 64 pixels.
+
+Data split strategy
+-
+A total of 2000 images from each class in used to make the data balanced across all classes.
+1600 for training and 400 for validation test.
+remaining images(unseen images) are used for model evaluation.
 
 ## Conclusion
 
